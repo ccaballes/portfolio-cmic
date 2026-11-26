@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-cmic",
+  "private": true,
+  "description": "Personal portfolio site. Static HTML and CSS, built with a zero-dependency Node script.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && python3 -m http.server 8000 --directory dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
