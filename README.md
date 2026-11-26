@@ -36,13 +36,9 @@ Pull requests are built as a check, but only `main` is published.
 
 ## Before you share the link
 
-The build prints a warning for any placeholder that is still in the page. Replace these in `src/index.html`:
+The build prints a warning for any placeholder that is still in the page. Still to do in `src/index.html`:
 
-- [ ] **LinkedIn URL** (hero button and footer): `https://www.linkedin.com/in/TODO-your-linkedin-handle/`
-- [ ] **Email** (hero button and footer): `mailto:TODO-your-email@example.com`
-- [ ] **TÜV "Verify certificate" link**: `TODO-verify-certificate-url`
 - [ ] **Case study link** at the bottom of Projects: `TODO-case-study-url`
-- [ ] **Your photo**: save it as `src/assets/img/tin.webp` (about 432 × 540 px), then swap the placeholder `<div class="photo">` for the `<img>` line in the comment just above it.
 
 ## Swapping in real dashboard screenshots
 
