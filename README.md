@@ -39,7 +39,6 @@ Pull requests are built as a check, but only `main` is published.
 The build prints a warning for any placeholder that is still in the page. Still to do in `src/index.html`:
 
 - [ ] **Case study link** at the bottom of Projects: `TODO-case-study-url`
-- [ ] **Your photo**: save it as `src/assets/img/tin.webp` (about 432 × 540 px), then swap the placeholder `<div class="photo">` for the `<img>` line in the comment just above it.
 
 ## Swapping in real dashboard screenshots
 

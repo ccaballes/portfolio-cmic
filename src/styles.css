@@ -223,17 +223,16 @@ h2 {
   gap: clamp(28px, 5vw, 56px);
 }
 
+/* height: auto lets the 4:5 frame win over the img's height attribute,
+   which is only there to reserve space before the image loads. */
 .photo {
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
-  border-radius: 16px;
   object-fit: cover;
-  background: #e8ecf3;
+  border-radius: 16px;
   border: 1px solid var(--line);
-  display: grid;
-  place-items: center;
-  font: 400 12px var(--mono);
-  color: var(--muted);
+  background: #e8ecf3;
 }
 
 h1 {

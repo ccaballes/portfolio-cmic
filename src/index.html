@@ -41,9 +41,9 @@
 
   <!-- ============================== HERO ============================== -->
   <section class="card hero" id="top" aria-labelledby="hero-title">
-    <!-- To add your photo, save it as src/assets/img/tin.webp (about 432 x 540 px) and replace this div with:
-         <img class="photo" src="assets/img/tin.webp" alt="Tin Caballes" width="432" height="540" fetchpriority="high"> -->
-    <div class="photo" aria-hidden="true">[your photo]</div>
+    <!-- Photo is 432 x 540 (twice its on-screen size, so it stays sharp). It is on the first screen,
+         so it loads right away with high priority instead of lazily. To change it, replace tin.webp at the same size. -->
+    <img class="photo" src="assets/img/tin.webp" alt="Tin Caballes, smiling outdoors in front of a grassy field and trees" width="432" height="540" fetchpriority="high" decoding="async">
     <div class="hero-copy">
       <p class="pill">Who I am</p>
       <h1 id="hero-title">Hi, I’m Tin.</h1>
