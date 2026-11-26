@@ -34,11 +34,11 @@ After that, every change merged into `main` goes live in about a minute. The add
 
 Pull requests are built as a check, but only `main` is published.
 
-## Before you share the link
+## Placeholder check
 
-The build prints a warning for any placeholder that is still in the page. Still to do in `src/index.html`:
+If you add a link you don't have the address for yet, put `TODO` in it (for example `href="TODO-case-study-url"`). The build lists every such link so nothing half-finished goes live by accident. There are none right now.
 
-- [ ] **Case study link** at the bottom of Projects: `TODO-case-study-url`
+To add a case study link later, there is a ready-made example in a comment at the end of the Projects section in `src/index.html`.
 
 ## Swapping in real dashboard screenshots
 
